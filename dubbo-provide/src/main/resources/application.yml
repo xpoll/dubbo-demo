@@ -1,0 +1,22 @@
+logging:
+  file: /var/log/provide.log
+  level.*: INFO
+  level.cn.blmdz: DEBUG
+
+dubbo:
+  name: dubbo-provide
+  registry: zookeeper://127.0.0.1:2181
+  mode: provider
+  
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/db_test?autoReconnect=true&amp;useUnicode=true&amp;charaterEncoding=utf-8
+    username: root
+    password: root
+    
+mybatis:
+  mapperLocations: classpath*:mapper/*Mapper.xml
+  typeAliasesPackage: cn.blmdz.entity
