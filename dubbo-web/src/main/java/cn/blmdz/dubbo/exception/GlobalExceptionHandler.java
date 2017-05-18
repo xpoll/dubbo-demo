@@ -1,4 +1,4 @@
-package cn.blmdz.web.exception;
+package cn.blmdz.dubbo.exception;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.ControllerAdvice;

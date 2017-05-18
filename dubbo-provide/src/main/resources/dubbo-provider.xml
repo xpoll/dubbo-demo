@@ -5,8 +5,6 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://code.alibabatech.com/schema/dubbo
         http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
-
 	<dubbo:service timeout="10000" version="1.0.0" retries="0"
-		interface="cn.blmdz.provide.service.StudentService" ref="studentServiceImpl" />
-
+		interface="cn.blmdz.dubbo.service.StudentService" ref="studentServiceImpl" />
 </beans>

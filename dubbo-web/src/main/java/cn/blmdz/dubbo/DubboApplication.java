@@ -1,19 +1,20 @@
-package cn.blmdz.web;
+package cn.blmdz.dubbo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import cn.blmdz.web.exception.GlobalExceptionHandler;
+import cn.blmdz.dubbo.exception.GlobalExceptionHandler;
 
 @EnableWebMvc
 @SpringBootApplication
 @Import(GlobalExceptionHandler.class)
-public class DubboWebApplication {
+public class DubboApplication {
 
 	public static void main(String[] args) {
-		SpringApplication application = new SpringApplication(DubboWebApplication.class, "classpath:/dubbo-consumer.xml");
+		SpringApplication application = new SpringApplication(DubboApplication.class,
+				"classpath:/dubbo-consumer.xml");
 		application.run(args);
 	}
 }

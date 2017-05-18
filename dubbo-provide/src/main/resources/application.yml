@@ -7,7 +7,6 @@ dubbo:
   name: dubbo-provide
   registry: zookeeper://127.0.0.1:2181
   mode: provider
-  
 
 spring:
   datasource:
@@ -19,4 +18,4 @@ spring:
     
 mybatis:
   mapperLocations: classpath*:mapper/*Mapper.xml
-  typeAliasesPackage: cn.blmdz.entity
+  typeAliasesPackage: cn.blmdz.dubbo.entity

@@ -1,13 +1,17 @@
-package cn.blmdz.entity;
+package cn.blmdz.dubbo.model;
 
 import java.io.Serializable;
 import java.util.Date;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
-public class Student implements Serializable {
-
+@AllArgsConstructor
+@NoArgsConstructor
+public class StudentVo implements Serializable {
+	
 	private static final long serialVersionUID = 1L;
 	
 	private Long id;

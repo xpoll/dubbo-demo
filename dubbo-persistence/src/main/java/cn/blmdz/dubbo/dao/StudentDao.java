@@ -1,10 +1,10 @@
-package cn.blmdz.dao;
+package cn.blmdz.dubbo.dao;
 
 import java.util.List;
 
 import com.github.pagehelper.Page;
 
-import cn.blmdz.entity.Student;
+import cn.blmdz.dubbo.entity.Student;
 
 public interface StudentDao {
 

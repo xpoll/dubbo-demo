@@ -1,7 +1,7 @@
 package cn.blmdz.common;
 
 /**
- * 全局异常
+ * 全局RuntimeException异常
  * @author yongzongyang
  */
 public class GlobalException extends RuntimeException {
