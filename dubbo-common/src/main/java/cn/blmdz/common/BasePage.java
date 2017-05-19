@@ -10,9 +10,10 @@ import lombok.Data;
 
 /**
  * 分页总类
+ * 
  * @author xpoll
- * @date 2016年12月7日 下午11:44:19
- * @param <T>
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
  */
 @Data
 public class BasePage<S, T> implements Serializable {

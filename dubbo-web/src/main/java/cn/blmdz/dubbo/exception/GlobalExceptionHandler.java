@@ -11,7 +11,10 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 全局异常封装处理
- * @author yangyz
+ * 
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
  */
 @Slf4j
 @ControllerAdvice

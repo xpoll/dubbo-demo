@@ -6,6 +6,13 @@ import com.github.pagehelper.Page;
 
 import cn.blmdz.dubbo.entity.Student;
 
+/**
+ * mapper dao层
+ * 
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
+ */
 public interface StudentDao {
 
 	int insert(Student student);

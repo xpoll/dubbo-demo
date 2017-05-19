@@ -2,7 +2,10 @@ package cn.blmdz.common;
 
 /**
  * 全局RuntimeException异常
- * @author yongzongyang
+ * 
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
  */
 public class GlobalException extends RuntimeException {
 	private static final long serialVersionUID = 1L;

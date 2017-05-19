@@ -1,3 +1,7 @@
+# xpoll
+# blmdz521@126.com
+# www.blmdz.cn
+
 logging:
   file: /var/log/provide.log
   level.*: INFO
@@ -8,3 +12,6 @@ dubbo:
   registry: zookeeper://127.0.0.1:2181
   mode: consumer
   
+server:
+  context-path: /
+  port: 8080

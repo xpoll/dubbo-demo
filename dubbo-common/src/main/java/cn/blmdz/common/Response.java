@@ -9,6 +9,10 @@ import lombok.ToString;
 /**
  * SOA RPC 调用封装对象，判断传输数据正确与否以及错误信息展示
  * 只加msg未加code，因为一般你基本不会为了这个code做额外处理
+ * 
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
  */
 @ToString
 public class Response<T> implements Serializable {

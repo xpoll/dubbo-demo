@@ -21,6 +21,11 @@ import cn.blmdz.boot.dubbo.command.DubboServiceListenerBean;
 import cn.blmdz.boot.dubbo.properties.DubboProperties;
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
+ */
 @Slf4j
 @Order
 @Configuration
@@ -95,13 +100,13 @@ public class DubboAutoConfiguration {
 	@Bean
 	public DubboServiceListenerBean dubboServiceListenerBean() {
 		log.info("Auto start dubbo configuration");
-		log.info("port       --> {}", dubboProperties.getPort());
-		log.info("registry   --> {}", dubboProperties.getRegistry());
-		log.info("threads    --> {}", dubboProperties.getThreads());
-		log.info("timeout    --> {}", dubboProperties.getTimeout());
-		log.info("heartBeats --> {}", dubboProperties.getHeartBeats());
-		log.info("host       --> {}", dubboProperties.getHost());
-		log.info("mode       --> {}", dubboProperties.getMode());
+		log.info("port          --> {}", dubboProperties.getPort());
+		log.info("registry      --> {}", dubboProperties.getRegistry());
+		log.info("threads       --> {}", dubboProperties.getThreads());
+		log.info("timeout       --> {}", dubboProperties.getTimeout());
+		log.info("heartBeats    --> {}", dubboProperties.getHeartBeats());
+		log.info("host          --> {}", dubboProperties.getHost());
+		log.info("mode          --> {}", dubboProperties.getMode());
 		log.info("serialization --> {}", dubboProperties.getSerialization());
 		return new DubboServiceListenerBean(MoreObjects.firstNonNull(dubboProperties.getName(), appName));
 	}

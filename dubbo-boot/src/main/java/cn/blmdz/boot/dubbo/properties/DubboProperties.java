@@ -4,6 +4,11 @@ import lombok.Data;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+/**
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
+ */
 @ConfigurationProperties(prefix = "dubbo")
 @Data
 public class DubboProperties {

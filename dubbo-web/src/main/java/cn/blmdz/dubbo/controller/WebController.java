@@ -10,6 +10,13 @@ import cn.blmdz.common.Response;
 import cn.blmdz.dubbo.model.StudentVo;
 import cn.blmdz.dubbo.service.StudentService;
 
+/**
+ * demo
+ * 
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
+ */
 @RestController
 public class WebController {
 	
@@ -17,14 +24,11 @@ public class WebController {
 	private StudentService studentService;
 
 	@RequestMapping(value="hello", method=RequestMethod.GET)
-	public Response<BasePage<Void, StudentVo>> hello() {
-		int num = 1;
-		int size = 3;
-		
+	public Response<BasePage<Void, StudentVo>> hello(/*@RequestBody BasePage<Void, StudentVo> base*/) {
 		
 		BasePage<Void, StudentVo> base = new BasePage<>();
-		base.setNum(num);
-		base.setSize(size);
+		base.setNum(1);
+		base.setSize(3);
 		
 		return studentService.findBySelect(base);
 	}

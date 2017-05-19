@@ -1,10 +1,15 @@
-﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+﻿<!-- 
+  @author xpoll
+  @mail blmdz521@126.com
+  @address www.blmdz.cn
+ -->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>cn.blmdz</groupId>
 		<artifactId>dubbo-demo</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1</version>
 	</parent>
 	<artifactId>dubbo-boot</artifactId>
 	
@@ -27,16 +32,14 @@
         </dependency>
         
         
-        <!-- 以下dubbo-boot不需要,但供调用boot使用 -->
+        <!-- 以下dubbo-boot不需要,但供调用boot的包使用 -->
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
-			<version>1.2.17</version>
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>1.7.21</version>
 		</dependency>
 
 		<dependency>

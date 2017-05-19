@@ -16,6 +16,13 @@ import cn.blmdz.dubbo.dao.StudentDao;
 import cn.blmdz.dubbo.entity.Student;
 import cn.blmdz.dubbo.model.StudentVo;
 
+/**
+ * service
+ * 
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
+ */
 @Service
 public class StudentServiceImpl implements StudentService {
 	

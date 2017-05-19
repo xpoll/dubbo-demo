@@ -5,6 +5,13 @@ import java.util.Date;
 
 import lombok.Data;
 
+/**
+ * 数据库entity
+ * 
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
+ */
 @Data
 public class Student implements Serializable {
 

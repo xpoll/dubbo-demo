@@ -9,6 +9,11 @@ import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 
+/**
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
+ */
 public class DubboServiceListenerBean implements ApplicationListener<ApplicationEvent>, ApplicationContextAware {
 	private static final Logger log = LoggerFactory.getLogger(DubboServiceListenerBean.class);
 	protected ApplicationContext ctx;

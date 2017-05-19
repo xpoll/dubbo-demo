@@ -11,6 +11,16 @@ import org.springframework.context.annotation.ComponentScan;
 
 import com.github.pagehelper.PageHelper;
 
+/**
+ * 模块启动类<br>
+ * <code>@Bean</code>可以新建配置文件去做，用<code>@Configuration</code><br>
+ * IDE中运行或启动直接运行此类<br>
+ * spring-boot 中不要乱写main方法，应在test中写<br>
+ * 
+ * @author xpoll
+ * @mail blmdz521@126.com
+ * @address www.blmdz.cn
+ */
 @ComponentScan
 @SpringBootApplication
 public class ProvideApplication {

@@ -1,9 +1,0 @@
-logging:
-  file: /var/log/provide.log
-  level.*: INFO
-  level.cn.blmdz: DEBUG
-  
-dubbo:
-  name: lm-provider
-  registry: zookeeper://127.0.0.1:2181
-  #mode: consumer
