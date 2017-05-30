@@ -2,13 +2,13 @@
 
 旨在自己mark和分享下，为没使用过的人做下demo
 
-##版本
+## 版本
 
 	spring-boot: 1.3.8.RELEASE
 	dubbo: 2.5.3
 	zookeeper: 3.4.10
 	mybatis: 5.1.39
-##了解
+## 了解
 
 既然要用,就先去简单了解下以下工具或技术再来开始吧
 
@@ -17,13 +17,13 @@
 2. <a href="http://dubbo.io/">dubbo</a>
 3. <a href="https://spring.io/">spring-boot</a>
 
-##准备
+## 准备
 
 	maven: 管理项目工具
 	zookeeper: 注册中心
 	mysql: 数据库
 
-##模块
+## 模块
 
 	<module>dubbo-persistence</module>
 	<module>dubbo-common</module>
@@ -42,7 +42,7 @@
 
 </p>
 
-##运行
+## 运行
 
 	1. git clone https://github.com/xpoll/dubbo-demo.git
 	2. cd dubbo-demo
@@ -53,7 +53,7 @@
 	7. java -jar dubbo-web/target/dubbo-web-0.0.1.jar
 	8. call http://127.0.0.1:8080/hello
 
-##配置文件
+## 配置文件
 
 	prefix:
 	  dubbo: 见dubbo-boot,封装dubbo的组件
@@ -61,7 +61,7 @@
 	  spring: spring-boot-starter
 	  mybatis: mybatis-spring-boot-starter
 	  server: spring-boot-starter
-##问题
+## 问题
 
 因水平有限，如有问题或讨论请至blmdz521@126.com并加上前缀[dubbo-demo]，谢谢
 
